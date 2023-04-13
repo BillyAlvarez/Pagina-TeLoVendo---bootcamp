@@ -1,0 +1,51 @@
+/* Estilos para el cuerpo de la página */
+body {
+	background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+}
+
+
+/* colores para puntero y el navbar */
+nav a:hover {
+	background-color: #605b60;
+	color: #fff;
+}
+
+/* Estilos para la sección de la empresa */
+section {
+	max-width: 60%;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+/* Estilos de Galeria */
+.gallery-item img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* Estilos para el pie de página */
+footer {
+	background-color: #005ea8;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0px;
+	bottom: 0;
+	width: 100%;
+}
+
+footer p {
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+#image1 {
+	text-align: center;
+	margin: 5px;
+}
+
+#productosTitle {
+	text-align: center;
+}
