@@ -69,22 +69,24 @@
 		<h2>Contacto</h2>
 	<div class="mb-3">
 		<label for="exampleFormControlInput1" class="form-label">Nombre</label>
-		<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Grupo 7">
+		<input type="text" class="form-control" id="campoNombre" placeholder="Grupo 7" required>
 	  </div>
 	<div class="mb-3">
 		<label for="exampleFormControlInput1" class="form-label">Correo</label>
-		<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@gmail.com">
+		<input type="email" class="form-control" id="campoCorreo" placeholder="correo@gmail.com">
 	  </div>
 	  <div class="mb-3">
 		<label for="exampleFormControlTextarea1" class="form-label">Mensaje
-		<textarea class="form-control" id="exampleFormControlTextarea1" rows="6" cols="1000"></textarea>
+		<textarea class="form-control" id="textArea" rows="6" cols="1000"></textarea>
 	  </div>
-	  <button type="button" class="btn btn-success">Enviar</button>
+	  <button type="button" class="btn btn-success" onclick="validarCampos()">Enviar</button>
 
     </section>
 
     <footer>
       <p>Desarrollado por el "Equipo 7" - © 2023</p>
     </footer>
+
+    <script src="js/js.js"></script>
   </body>
 </html>
