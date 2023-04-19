@@ -14,3 +14,6 @@ function validarCampos(){
     alert('debe ingresar el campo mensaje')
    }
 }
+
+let table = new DataTable('#myTable');
+

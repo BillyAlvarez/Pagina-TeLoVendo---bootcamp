@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon" />
@@ -12,27 +13,21 @@
       crossorigin="anonymous"
     />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-   
 
-    
     <title>Te lo Vendo - Sitio Web Estático</title>
   </head>
-
-
-
   <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
         <h1 class="navbar-brand" href="#">Te Lo Vendo</h1>
-       
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link "  href="#"
+              <a class="nav-link active" aria-current="page" href="#"
                 >Productos</a
               >
             </li>
@@ -40,15 +35,10 @@
               <a class="nav-link" href="#">Pedidos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+              <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="estadisticas.html">Estadisticas</a>
-          </li>
           </ul>
         </div>
-
         <form class="d-flex" role="search">
           <input
             class="form-control me-2"
@@ -60,30 +50,56 @@
         </form>
       </div>
     </nav>
-	
-	<section>
-		<h2>Contacto</h2>
-	<div class="mb-3">
-		<label for="exampleFormControlInput1" class="form-label">Nombre</label>
-		<input type="text" class="form-control" id="campoNombre" placeholder="Grupo 7" required>
-	  </div>
-	<div class="mb-3">
-		<label for="exampleFormControlInput1" class="form-label">Correo</label>
-		<input type="email" class="form-control" id="campoCorreo" placeholder="correo@gmail.com">
-	  </div>
-	  <div class="mb-3">
-		<label for="exampleFormControlTextarea1" class="form-label">Mensaje
-		<textarea class="form-control" id="textArea" rows="6" cols="1000"></textarea>
-	  </div>
-	  <button type="button" class="btn btn-success" onclick="validarCampos()">Enviar</button>
 
-    </section>
+    <table id="myTable" class="display">
+      <thead>
+        <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+          <th>Column 2</th>
+          <th>Column 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Row 1 Data 1</td>
+          <td>Row 1 Data 2</td>
+          <td>Row 1 Data 1</td>
+          <td>Row 1 Data 2</td>
+        </tr>
+        <tr>
+          <td>Row 2 Data 1</td>
+          <td>Row 2 Data 2</td>
+          <td>Row 1 Data 1</td>
+          <td>Row 1 Data 2</td>
+        </tr>
+        <tr>
+          <td>Row 1 Data 1</td>
+          <td>Row 1 Data 2</td>
+          <td>Row 1 Data 1</td>
+          <td>Row 1 Data 2</td>
+        </tr>
+        <tr>
+          <td>Row 2 Data 1</td>
+          <td>Row 2 Data 2</td>
+          <td>Row 1 Data 1</td>
+          <td>Row 1 Data 2</td>
+        </tr>
+        <tr>
+          <td>Row 1 Data 1</td>
+          <td>Row 1 Data 2</td>
+          <td>Row 1 Data 1</td>
+          <td>Row 1 Data 2</td>
+        </tr>
+        <tr>
+          <td>Row 2 Data 1</td>
+          <td>Row 2 Data 2</td>
+          <td>Row 1 Data 1</td>
+          <td>Row 1 Data 2</td>
+        </tr>
+      </tbody>
+    </table>
 
-    <footer>
-      <p>Desarrollado por el "Equipo 7" - © 2023</p>
-    </footer>
-
-    <script src="js/js.js"></script>
     <!-- scripts bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
@@ -95,5 +111,13 @@
       integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
       crossorigin="anonymous"
     ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css"
+    />
+
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+    <script src="js/js.js"></script>
   </body>
 </html>
